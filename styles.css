@@ -1,0 +1,45 @@
+html,body{
+    margin:0;
+    padding: 0;
+}
+
+body{
+   overflow: hidden;
+   background-color: black;
+}
+
+#left_paddle{
+    position: relative;
+    width: 30px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    border-radius: 50%;
+}
+
+#right_paddle{
+    position: relative;
+    width: 30px;
+    height: 200px;
+    background-color: white;    
+    float: right;
+    border-radius: 50%;
+}
+
+#ball{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color:#ffa500;
+    border-radius: 50%;
+}
+#goal{
+    font-size: 1000%;
+    transition: 1.5s all;
+    display: inline-block;
+}
+#deli,#scoreleft,#scoreright{
+    font-size: 1000%;
+    color: white;
+    z-index: 10;
+}
